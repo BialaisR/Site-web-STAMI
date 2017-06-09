@@ -38,7 +38,7 @@
 
 </nav>
 
-<div id="myCarousel1" class="carousel slide text-center" data-ride="carousel">
+<div id="myCarousel1" class="carousel text-center" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -92,7 +92,7 @@
       <br><a href="#contact" class="test2"><button class="btn btn-default btn-lg">Nous contacter</button></a>
     </div>
     <div class="col-sm-3">
-      <span class="glyphicon glyphicon-phone logo"></span>
+      <span class="glyphicon glyphicon-thumbs-up logo"></span>
     </div>
   </div>
 </div>
@@ -117,18 +117,18 @@
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid bg-grey text-center">
-  <h2>NOS PRÉSTATIONS</h2>
+  <h2>NOS PRESTATIONS</h2>
   <h4>Elles se décomposent en 2 grands axes :</h4>
   <br>
   <div class="row slideanim">
     <a href="services.html">
-    <div class="col-sm-6">
+    <div id="prest1" class="col-sm-6">
       <span class="glyphicon glyphicon-briefcase logo-medium-services"></span><br><br>
       <h4>SERVICES</h4>
     </div>
     </a>
     <a href="grandstravaux.html">
-    <div class="col-sm-6">
+    <div id="prest2" class="col-sm-6">
       <span class="glyphicon glyphicon-wrench logo-medium-travaux"></span><br><br>
       <h4>GRANDS TRAVAUX</h4>
     </div>
@@ -149,6 +149,11 @@
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
       <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+      <li data-target="#myCarousel" data-slide-to="8"></li>
+      <li data-target="#myCarousel" data-slide-to="9"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -158,17 +163,33 @@
           <p><img src="images/logoplaco.png" alt="placo" class="partenaires"></p><br><br><br></a>
         </div>
         <div class="item"><a href="https://www.knauf-batiment.fr/" target="_blank">
-          <p><img src="images/logoknauf.jpg" alt="placo" class="partenaires"></p><br><br><br></a>
+          <p><img src="images/logoknauf.jpg" alt="knauf" class="partenaires"></p><br><br><br></a>
+        </div>
+        <div class="item"><a href="http://www.armstrong.fr/commclgeu/eu1/fr/fr/" target="_blank">
+          <p><img src="images/logoarmstrong.jpg" alt="armstrong" class="partenaires"></p><br><br><br></a>
         </div>
         <div class="item"><a href="http://www.tiaso.com/" target="_blank">
-          <p><img src="images/logotiaso.jpg" alt="placo" class="partenaires"></p><br><br><br></a>
+          <p><img src="images/logotiaso.jpg" alt="tiaso" class="partenaires"></p><br><br><br></a>
         </div>
-        <div class="item">
-          <h4><span>PLAFONDS</span><br><br>AMF France - Armstrong -  Eurocoustic - Ecofond - Rockfon</h4><br>
+        <div class="item"><a href="http://www.eurocoustic.com/" target="_blank">
+          <p><img src="images/logoeurocoustic.jpg" alt="eurocoustic" class="partenaires"></p><br><br><br></a>
         </div>
-        <div class="item">
-          <h4><span>PLANCHERS TECHNIQUES</span><br><br>Comey - Gamma</h4><br>
-      </div>
+        <div class="item"><a href="http://www.ecophon.com/fr" target="_blank">
+          <p><img src="images/logoecophon.png" alt="ecophon" class="partenaires"></p><br><br><br></a>
+        </div>
+        <div class="item"><a href="http://www.rockfon.fr" target="_blank">
+          <p><img src="images/logorockfon.jpg" alt="rockfon" class="partenaires"></p><br><br><br></a>
+        </div>
+        <div class="item"><a href="https://www.knaufamf.com/fr/" target="_blank">
+          <p><img src="images/logoamf.jpg" alt="rockfon" class="partenaires"></p><br><br><br></a>
+        </div>
+        <div class="item"><a href="http://www.planchers-comey.fr/" target="_blank">
+          <p><img src="images/logocomey.jpg" alt="comey" class="partenaires"></p><br><br><br></a>
+        </div>
+        <div class="item"><a href="http://www.gamma-industries.com/" target="_blank">
+          <p><img src="images/logogamma.gif" alt="gamma" class="partenaires"></p><br><br><br></a>
+        </div>
+
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -195,7 +216,7 @@
       <p><span class="glyphicon glyphicon-phone"></span> + 33 (0)3 20 36 25 48</p>
       <p><span class="glyphicon glyphicon-envelope"></span> stami59@wanadoo.fr</p>
     </div>
-    <div class="col-sm-7 slideanim">
+    <div class="col-sm-7 slide">
       <div class="row">
         <div class="col-sm-6 form-group">
           <input class="form-control" id="nom" name="nom" placeholder="Nom" type="text" required>
@@ -207,7 +228,7 @@
       <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+          <button class="btn btn-default pull-right" type="submit">Envoyer</button>
         </div>
       </div>
     </div>
@@ -222,7 +243,7 @@
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>S.T.A.M.I 2017 - Mentions Légales</a></p>
+  <p>S.T.A.M.I 2017 -  <a href="mentionslegales.html">Mentions Légales</a></p>
 </footer>
 
 <script>

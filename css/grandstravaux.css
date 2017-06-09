@@ -4,7 +4,7 @@ body {
     color: #818181;
 }
 
-img {
+#logostami {
   width: 250px;
   margin-bottom:50px;
 
@@ -39,6 +39,7 @@ h4 {
 
 #logo h3 {
   background-color: #177A4C;
+  opacity: 0.75;
 }
 
 .container-fluid {

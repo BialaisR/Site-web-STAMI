@@ -18,6 +18,8 @@ footer{
   margin-top: 150px;
 }
 
+
+
 h2 {
     font-size: 24px;
     text-transform: uppercase;
@@ -35,6 +37,29 @@ h4 {
     padding-top: 0px;
 }
 
+#prest1, #prest2 {
+-webkit-transition: all 0.35s ease-in-out;
+-moz-transition: all 0.35s ease-in-out;
+transition: all 0.35s ease-in-out;
+cursor:pointer;
+}
+
+#prest1:hover,
+#prest1:active,
+#prest1:focus {
+text-shadow: 2px 3px 10px black ;
+}
+
+#prest2:hover,
+#prest2:active,
+#prest1:focus {
+text-shadow: 0px 0px 10px black ;
+}
+
+#prest1:hover {
+  color: #3366BB;
+}
+
 #logo {
   position: absolute;
   left: 25%;
@@ -44,10 +69,21 @@ h4 {
   font-family: Montserrat, sans-serif;
   text-shadow: 0px 0px 30px black;
   text-align: center;
+
 }
 
 #logo h3 {
   background-color: #3366BB;
+  opacity: 0.75;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
 }
 
 .container-fluid {
@@ -76,7 +112,6 @@ h4 {
     color: #dd3737;
     font-size: 125px;
 }
-
 
 .logo {
     color: #3366BB;
